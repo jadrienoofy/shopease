@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js" defer></script>
+    <script src="https://cdn.tailwindcss.com" defer></script>
+    <script src="index.js" defer></script>
+    <title>ShopEase |  Affordable Online Shopping in the Philippines</title>
+</head>
+<body>
+    <nav class="flex items-center bg-white shadow-md justify-between p-3 shadow-md">
+        <div class="flex items-center gap-x-3">
+            <img src="images/logo.png" alt="ShopEase" class="h-[60px]">
+            <h1 class="font-bold text-3xl tracking-wide">ShopEase</h1>
+        </div>
+        <div class="flex-1 place-items-center">
+           <form action="#" class="relative flex-grow max-w-xl w-full">
+                <input type="text" placeholder="Search" class="pl-8 pr-4 py-2 rounded-lg w-[100%] border-2 border-gray-300"/>
+                <i class="fas fa-search absolute left-2 top-1/2 transform -translate-y-1/2 text-gray-500"></i>
+            </form>
+        </div>
+        <div class="pr-40">
+            <ul class="flex gap-x-10 relative">
+                <li><a href="#"><i class="fas fa-shopping-cart text-2xl text-gray-300"></i></a></li>
+                <li><a href="#"><i class="far fa-bell text-2xl text-gray-300"></i></a></li>
+                <li class="relative">
+                    <input type="checkbox" id="user-toggle" class="peer hidden" />
+                    <label for="user-toggle" class="flex items-center text-2xl cursor-pointer select-none">
+                    <i class="far fa-circle-user text-gray-300"></i>
+                    <i class="fas fa-caret-down ml-2 text-lg text-gray-300"></i>
+                    </label>
+                    <ul class="absolute left-1/2 mt-2 w-40 bg-white border border-gray-300 rounded shadow-lg opacity-0 invisible peer-checked:opacity-100 peer-checked:visible transition-opacity duration-200 z-50 -translate-x-1/2 transform">
+                    <li><a href="#" class="block px-4 py-2 hover:bg-gray-100">Account</a></li>
+                    <li><a href="#" class="block px-4 py-2 hover:bg-gray-100">Settings</a></li>
+                    <li><a href="index.html" class="block px-4 py-2 hover:bg-gray-100">Log Out</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <section class="relative w-full h-[700px]">
+        <img src="images/banner.jpg" alt="banner" class="h-[700px] w-full object-fill opacity-100" />
+        <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center px-4">
+            <h1 class="text-white text-5xl font-extrabold drop-shadow-lg">
+            Welcome to ShopEase
+            </h1>
+            <p class="text-white text-xl mt-1 drop-shadow-md max-w-lg mx-auto">
+            Discover the best deals and exclusive offers
+            </p>
+            <div class="mt-5">
+                <a href="#" 
+                class="bg-purple-300 text-white lg:px-3 lg:py-3 rounded-lg border-2 border-transparent 
+                        transition duration-300 
+                        hover:bg-transparent hover:border-purple-300 hover:text-purple-200">
+                    Shop Now
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="p-10">
+        <h1 class="text-3xl font-bold text-center">Categories</h1>
+        <div class="flex justify-center gap-x-10 pl-40 pr-40 mt-10">
+            <div class="h-[50px] w-[230px] bg-gray-100 rounded-lg flex items-center justify-center transform transform-transition duration-300 lg:hover:bg-gray-200"><a href="#" class="font-bold"><i class="fas fa-male mr-2"></i>Men</a></div>
+            <div class="h-[50px] w-[230px] bg-gray-100 rounded-lg flex items-center justify-center transform transform-transition duration-300 lg:hover:bg-gray-200"><a href="#" class="font-bold"><i class="fas fa-female mr-2"></i>Women</a></div>
+            <div class="h-[50px] w-[230px] bg-gray-100 rounded-lg flex items-center justify-center transform transform-transition duration-300 lg:hover:bg-gray-200"><a href="#" class="font-bold"><i class="fas fa-couch mr-2"></i>Home & Living</a></div>
+            <div class="h-[50px] w-[230px] bg-gray-100 rounded-lg flex items-center justify-center transform transform-transition duration-300 lg:hover:bg-gray-200"><a href="#" class="font-bold"><i class="fas fa-basketball-ball mr-2"></i>Sports</a></div>
+            <div class="h-[50px] w-[230px] bg-gray-100 rounded-lg flex items-center justify-center transform transform-transition duration-300 lg:hover:bg-gray-200"><a href="#" class="font-bold"><i class="fas fa-glasses mr-2"></i>Accessories</a></div>
+        </div>
+        <div class="flex justify-center gap-x-10 pl-40 pr-40 mt-7">
+            <div class="h-[50px] w-[230px] bg-gray-100 rounded-lg flex items-center justify-center transform transform-transition duration-300 lg:hover:bg-gray-200"><a href="#" class="font-bold"><i class="fas fa-book mr-2"></i>Books</a></div>
+            <div class="h-[50px] w-[230px] bg-gray-100 rounded-lg flex items-center justify-center transform transform-transition duration-300 lg:hover:bg-gray-200"><a href="#" class="font-bold"><i class="fas fa-hand-sparkles mr-2"></i>Beauty & Personal Care</a></div>
+            <div class="h-[50px] w-[230px] bg-gray-100 rounded-lg flex items-center justify-center transform transform-transition duration-300 lg:hover:bg-gray-200"><a href="#" class="font-bold"><i class="fas fa-mobile mr-2"></i>Electronic & Gadgets</a></div>
+            <div class="h-[50px] w-[230px] bg-gray-100 rounded-lg flex items-center justify-center transform transform-transition duration-300 lg:hover:bg-gray-200"><a href="#" class="font-bold"><i class="fas fa-baby-carriage mr-2"></i>Kids & Baby</a></div>
+            <div class="h-[50px] w-[230px] bg-gray-100 rounded-lg flex items-center justify-center transform transform-transition duration-300 lg:hover:bg-gray-200"><a href="#" class="font-bold"><i class="fas fa-heart mr-2"></i>Health & Wellness</a></div>
+        </div>
+    </section>
+    <section class="p-10 relative">
+        <h1 class="text-4xl font-bold text-center">Top Products</h1>
+        <button id="leftBtn" class="hidden absolute top-1/2 left-4 transform -translate-y-1/2 bg-gray-800 text-white p-2 rounded-full shadow-md z-10">
+            &#8592;
+        </button>
+        <button id="rightBtn" class="absolute top-1/2 right-4 transform -translate-y-1/2 bg-gray-800 text-white p-2 rounded-full shadow-md z-10">
+            &#8594;
+        </button>
+        <div id="scrollContainer" class="flex items-center gap-x-3 mt-5 overflow-x-auto snap-x snap-mandatory scrollbar-hide scroll-smooth">
+            <div class="bg-white h-[400px] w-[20%] flex-shrink-0 border-2 border-gray-900 snap-center"></div>
+            <div class="bg-white h-[400px] w-[20%] flex-shrink-0 border-2 border-gray-900 snap-center"></div>
+            <div class="bg-white h-[400px] w-[20%] flex-shrink-0 border-2 border-gray-900 snap-center"></div>
+            <div class="bg-white h-[400px] w-[20%] flex-shrink-0 border-2 border-gray-900 snap-center"></div>
+            <div class="bg-white h-[400px] w-[20%] flex-shrink-0 border-2 border-gray-900 snap-center"></div>
+            <div class="bg-white h-[400px] w-[20%] flex-shrink-0 border-2 border-gray-900 snap-center"></div>
+            <div class="bg-white h-[400px] w-[20%] flex-shrink-0 border-2 border-gray-900 snap-center"></div>
+            <div class="bg-white h-[400px] w-[20%] flex-shrink-0 border-2 border-gray-900 snap-center"></div>
+            <div class="bg-white h-[400px] w-[20%] flex-shrink-0 border-2 border-gray-900 snap-center"></div>
+        </div>
+    </section>
+</body>
+</html>
